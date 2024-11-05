@@ -1,8 +1,6 @@
-# React + Vite
+Mini Chat App
+A real-time chat application built with the MERN stack:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: React for an interactive user interface.
+Backend: Node.js and Express for server-side logic and handling API requests.
+Database: MongoDB to store and manage chat data securely and efficiently.
