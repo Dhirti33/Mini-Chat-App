@@ -1,0 +1,139 @@
+.chatBoard {
+    width: 100%;
+    height: 100%;
+
+    background-color: white;
+    border-radius: 15px;
+}
+
+.chatBoard-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 10px;
+
+}
+
+.message-box {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    overflow-y: scroll;
+
+    border-radius: 15px;
+    /* background-color: white; */
+    padding: 0.3em;
+
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
+}
+
+.guest-container {
+    width: 100%;
+    display: flex;
+    gap: 0.5em;
+
+}
+
+.guest-card{
+    width: auto;
+    display: flex;
+    gap: 0.5em;
+    padding: 0.2em;
+}
+
+.guest-text {
+    height: 2em;
+    width: 15em;
+    display: flex;
+    align-items: center;
+    background-color: rgba(162, 210, 255, 0.5);
+    border-radius: 5px;
+    padding: 0.2em;
+    font-weight: 500;
+}
+
+.guest-time{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: gray;
+    font-size: 0.5em;
+}
+
+.host-container {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    gap: 0.5em;
+
+}
+
+.host-card{
+    width: auto;
+    display: flex;
+    gap: 0.5em;
+    padding: 0.2em;
+}
+
+.host-text {
+    height: 2em;
+    width: 15em;
+    display: flex;
+    align-items: center;
+    background-color: rgba(162, 210, 255, 0.5);
+    border-radius: 5px;
+    padding: 0.2em;
+    font-weight: 500;
+}
+.host-time{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: gray;
+    font-size: 0.5em;
+}
+
+@media (max-width: 768px) {
+    
+    .guest-card{
+        width: 70%;
+    }
+    
+    .host-card{
+        width: 70%;
+    }
+}
+
+.sendText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+  }
+  
+  .sender {
+    height: 3em;
+    width: 90%;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+    background-color: #a2d2ff80;
+
+    outline: none;
+  }
+  
+  .sender::placeholder {
+    color : gray;
+  }
+  
+  .bi-send-fill {
+    font-size: xx-large;
+    transform: rotate(45deg);
+    color: #a2d2ff80;
+  }

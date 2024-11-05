@@ -1,0 +1,14 @@
+
+#App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 5%;
+    background-color: rgba(128, 128, 128, 0.2);
+
+    font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
